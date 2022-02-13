@@ -1,6 +1,5 @@
 body {
     background-color: antiquewhite;
-    margin: 0 auto;
 }
 
 .flex-container {
@@ -59,4 +58,30 @@ h2 {
 input {
     margin: 4px;
     width: 100px;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 460px;
+    margin: 14px auto;
+}
+
+.caja div {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(247, 167, 167);
+    border: 2px solid rgb(241, 156, 156);
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.caja div:hover {
+    font-size: 24px;
+    background-color: rgb(218, 149, 149);
 }
